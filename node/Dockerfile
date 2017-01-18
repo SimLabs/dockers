@@ -1,3 +1,3 @@
-FROM node:latest
+FROM node:4
 RUN npm install -g bower
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
